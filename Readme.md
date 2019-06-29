@@ -42,10 +42,44 @@ Dockerを扱うツールとして次のものがあります。
 ## ツールインストール
 
 **Win**
-```sh
-Docker & Docker Compose
+Docker & Docker Compose  
+> WindowsはDockerと一緒にDocker Composeもインストールされます。
 
-```
+Win10 Home x64  
+1. Docker Toolboxを[ここから](https://docs.docker.com/toolbox/toolbox_install_windows/)ダウンロードする。  
+2. 上記ページを見ながらインストールする。  
+3. デスクトップに作られたDocker QuickStartを実行してDockerコントローラを起動する。4. Dockerのバージョン情報が表示されればOK.
+    ```sh
+    $ docker version
+    Client:
+    Version:       18.03.0-ce
+    API version:   1.37
+    Go version:    go1.9.4
+    Git commit:    0520e24302
+    Built: Fri Mar 23 08:31:36 2018
+    OS/Arch:       windows/amd64
+    Experimental:  false
+    Orchestrator:  swarm
+
+    Server: Docker Engine - Community
+    Engine:
+    Version:      18.09.6
+    API version:  1.39 (minimum version 1.12)
+    Go version:   go1.10.8
+    Git commit:   481bc77
+    Built:        Sat May  4 02:41:08 2019
+    OS/Arch:      linux/amd64
+    Experimental: false
+    ```
+  
+
+Win10 Pro以上 x64  
+1. Docker Desktop for Windowsを[ここから](https://docs.docker.com/docker-for-windows/install/)ダウンロードする。  
+2. 上記ページを見ながらインストールする。  
+3. Dockerのバージョン情報が表示されればOK.
+    ```sh
+    $ docker version
+    ```
 
 **Mac**
 ```sh
