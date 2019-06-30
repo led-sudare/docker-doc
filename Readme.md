@@ -1,4 +1,4 @@
-Dockerに関する情報をまとめます。
+﻿Dockerに関する情報をまとめます。
 ===
 
 <!-- toc -->
@@ -48,7 +48,8 @@ Docker & Docker Compose
 Win10 Home x64  
 1. Docker Toolboxを[ここから](https://docs.docker.com/toolbox/toolbox_install_windows/)ダウンロードする。  
 2. 上記ページを見ながらインストールする。  
-3. デスクトップに作られたDocker QuickStartを実行してDockerコントローラを起動する。4. Dockerのバージョン情報が表示されればOK.
+3. デスクトップに作られたDocker QuickStartを実行してDockerコントローラを起動する。  
+4. Dockerのバージョン情報が表示されればOK。  
     ```sh
     $ docker version
     Client:
